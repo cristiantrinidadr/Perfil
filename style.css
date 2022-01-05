@@ -1,0 +1,81 @@
+body {
+  background-color: bisque;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height:normal;
+}
+
+#perfil{
+  width: 220px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #c07f1e;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  line-height:normal;
+  }
+
+h2 {
+  color: #c07f1e;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  line-height:normal;
+  }
+
+a {
+  background-color: #B78700;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 5px 20px lightgray;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 8px;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 15px;
+  font-size: 40px;
+  color: #B78700;
+  margin-left: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
